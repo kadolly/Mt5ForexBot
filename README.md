@@ -1,12 +1,6 @@
 # 🎯 FX Auto-Trading Bot 🤖📈
 
-Welcome to your **private FX bot** — a lean, mean, automated trading machine you can run on your **Termux phone 📱** or any **cloud VM ☁️**!
-
----
-## 📊 Live Forex Chart Animation
-
-Here’s a preview of the bot working its magic ✨:
-
+Welcome to your **private FX bot** — a lean, mean, automated trading machine you can run on your **Termux phone 📱** or any **cloud VM ☁️**! 
 ![FX Guru ](https://media.giphy.com/media/QEN6Cksu8d2F8RRVrg/giphy.gif)
 
 ---
