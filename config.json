@@ -1,1 +1,61 @@
+{
+    "meta": {
+        "developer": "DizoFx",
+        "version": "2.3",
+        "last_updated": "2025-06-23",
+        "strategy": "Millisecond Scalper Pro"
+    },
 
+    "broker": {
+        "mt5_server": "DizoFx-Server-Pro",
+        "account_id": 987654,
+        "password": "encrypted:AB5F2E9C", // Use encryption key from your vault
+        "timeout_ms": 10, // Ultra-low latency
+        "ping_threshold": 15 // Max acceptable ping
+    },
+
+    "scalping_core": {
+        "symbols": ["EURUSD", "XAUUSD", "BTCUSD"],
+        "lot_size": 0.15,
+        "max_concurrent_trades": 5,
+        "cycle_speed_ms": 25, // 25ms refresh rate
+        
+        "entry_logic": {
+            "tick_ema_fast": 2, // 2-tick EMA
+            "tick_ema_slow": 7,
+            "momentum_threshold": 0.18, // 0.18 pip momentum
+            "spread_limit": 0.8, // Max allowed spread
+            "liquidity_check": true
+        },
+
+        "exit_rules": {
+            "micro_tp": 0.35, // $0.35 take-profit
+            "micro_sl": 0.25, // $0.25 stop-loss
+            "timeout_sec": 8, // Auto-close after 8s
+            "trailing_lock": 0.10 // Lock $0.10 profit
+        }
+    },
+
+    "risk_parameters": {
+        "daily_max_loss": 75.00,
+        "hourly_trade_limit": 120,
+        "cooldown_after_loss": 30, // Seconds
+        "volatility_blacklist": ["NFP", "FOMC", "CPI"] // News events
+    },
+
+    "performance": {
+        "turbo_mode": true,
+        "tick_buffer_size": 200,
+        "ram_allocation_mb": 512,
+        "cpu_priority": "high"
+    },
+
+    "monitoring": {
+        "telegram_alerts": {
+            "enabled": true,
+            "bot_token": "encrypted:CD8G3H1K",
+            "chat_id": "-100123456"
+        },
+        "log_verbosity": "extreme"
+    }
+    }
