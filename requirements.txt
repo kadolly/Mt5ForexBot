@@ -1,1 +1,26 @@
+# Core Trading Engine
+MetaTrader5==5.0.45           # MT5 API (2025 LTS version)
+python-dotenv==1.0.1          # Secure config loading
 
+# High-Speed Data Processing
+numpy==2.1.0                  # Array operations (AVX2 optimized)
+pandas==3.0.0                 # Tick data analysis (2025 update)
+numba==0.62.0                 # JIT compilation for micro-EMA
+
+# Security & Networking
+cryptography==42.0.5          # Config encryption
+pyOpenSSL==24.1.0             # Low-latency TLS
+uvloop==0.19.0                # Async I/O acceleration
+
+# Monitoring & Alerts
+python-telegram-bot==21.0.1   # Real-time notifications
+psutil==5.9.8                 # Hardware monitoring
+
+# Performance Boosters
+orjson==3.10.0                # Ultra-fast JSON
+lz4==4.3.3                    # Tick compression
+pytest-benchmark==4.0.0       # Speed validation
+
+# Development Tools
+black==24.4.0                 # Code formatting
+mypy==2.0.0                   # Type checking
