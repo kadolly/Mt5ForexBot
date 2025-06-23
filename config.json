@@ -7,9 +7,9 @@
     },
 
     "broker": {
-        "mt5_server": "DizoFx-Server-Pro",
-        "account_id": 987654,
-        "password": "encrypted:AB5F2E9C", // Use encryption key from your vault
+        "mt5_server": "Headway-Demo",
+        "account_id": 2305317,
+        "password": "ra!9g6lV", // Use encryption key from your vault
         "timeout_ms": 10, // Ultra-low latency
         "ping_threshold": 15 // Max acceptable ping
     },
