@@ -42,13 +42,13 @@ Welcome to your **private FX bot** — a lean, mean, automated trading machine y
 ## ☕ Buy Me a Coffee
 If you’d like to support my work, feel free to send a tip — thank you! 🧡
 
-- 💸 **BINANCE UID:** `836899445`
+- 💸 **BINANCE UID:** `449989291`
 
 ---
 
 ## 📲 Reach Me on WhatsApp
 Have questions, feedback, or want to collaborate? Let’s chat! 🤝  
-[💬 Click here to WhatsApp me](https://wa.me/254111200187)
+[💬 Click here to WhatsApp me](https://wa.me/254746812431)
 
 ---
 
